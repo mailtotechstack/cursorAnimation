@@ -21,6 +21,7 @@ image.addEventListener("mouseenter", (e)=>{
 
 image.addEventListener("mouseleave", (e)=>{
     gsap.to(cursor, {
+        innerText: "",
         x: e.x,
         y: e.y,
         scale: 1,
